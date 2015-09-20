@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FA334388-3750-6D79-2225-CD42BFBC40DB" name="Employee">
+<createdBy>mjwielgo</createdBy>
+<createdTime>2015-09-17 01:56:21 UTC</createdTime>
+<ownerDesignName>mwielgosAssignmentTwo</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EmpNo" id="F266F55E-D3EC-9AC7-CF9F-332025AE9FE8">
+<createdBy>mjwielgo</createdBy>
+<createdTime>2015-09-17 02:04:37 UTC</createdTime>
+<ownerDesignName>mwielgosAssignmentTwo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmpFirstName" id="7611B4BC-6B13-07BF-4174-B62EEC68CD2A">
+<createdBy>mjwielgo</createdBy>
+<createdTime>2015-09-17 02:04:37 UTC</createdTime>
+<ownerDesignName>mwielgosAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmpLastName" id="70BE929E-07BA-C671-74B6-F3AF5DE53475">
+<createdBy>mjwielgo</createdBy>
+<createdTime>2015-09-17 02:04:37 UTC</createdTime>
+<ownerDesignName>mwielgosAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmpPhone" id="38CD41CC-BDEC-E3E8-5FB5-B942252D5B2A">
+<createdBy>mjwielgo</createdBy>
+<createdTime>2015-09-17 02:04:37 UTC</createdTime>
+<ownerDesignName>mwielgosAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14 CHAR</dataTypeSize>
+<ownDataTypeParameters>14 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmpEmail" id="C487B9CE-4B06-1349-4822-352450730E2F">
+<createdBy>mjwielgo</createdBy>
+<createdTime>2015-09-17 02:04:37 UTC</createdTime>
+<ownerDesignName>mwielgosAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A5993D8-5B19-02B7-09EC-E63BC9612286" name="Employee_PK">
+<createdBy>mjwielgo</createdBy>
+<createdTime>2015-09-17 02:04:37 UTC</createdTime>
+<ownerDesignName>mwielgosAssignmentTwo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F266F55E-D3EC-9AC7-CF9F-332025AE9FE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

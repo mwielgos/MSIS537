@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="823608ED-772D-DE7D-3252-9860D01B1C09" name="Customer">
+<createdBy>mjwielgo</createdBy>
+<createdTime>2015-09-17 01:15:07 UTC</createdTime>
+<ownerDesignName>mwielgosAssignmentTwo</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CustNo" id="FCF64FB2-A5F6-548C-0A7C-051AE7D50588">
+<createdBy>mjwielgo</createdBy>
+<createdTime>2015-09-17 01:25:59 UTC</createdTime>
+<ownerDesignName>mwielgosAssignmentTwo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CustFirstName" id="69C86E47-04AE-3063-775E-A4302BDCE0CF">
+<createdBy>mjwielgo</createdBy>
+<createdTime>2015-09-17 01:51:11 UTC</createdTime>
+<ownerDesignName>mwielgosAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CustLastName" id="5172FFC9-4BD8-793C-2ED8-E71BC883E08B">
+<createdBy>mjwielgo</createdBy>
+<createdTime>2015-09-17 01:51:11 UTC</createdTime>
+<ownerDesignName>mwielgosAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CustCity" id="54806E94-9E6C-92E4-ACC6-D426D1376E43">
+<createdBy>mjwielgo</createdBy>
+<createdTime>2015-09-17 01:51:11 UTC</createdTime>
+<ownerDesignName>mwielgosAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CustState" id="04504C28-754B-D7C9-4824-4A192B3B0ABF">
+<createdBy>mjwielgo</createdBy>
+<createdTime>2015-09-17 01:51:11 UTC</createdTime>
+<ownerDesignName>mwielgosAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CustZip" id="F7A32106-AD50-8C04-703F-3E3410F994F5">
+<createdBy>mjwielgo</createdBy>
+<createdTime>2015-09-17 01:51:11 UTC</createdTime>
+<ownerDesignName>mwielgosAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CustBal" id="49B3966E-A441-D628-657E-8CAAEF2EFC24">
+<createdBy>mjwielgo</createdBy>
+<createdTime>2015-09-17 01:51:11 UTC</createdTime>
+<ownerDesignName>mwielgosAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,10,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DF7CB381-2995-CB1B-8ADE-1917F354A018" name="Customer_PK">
+<createdBy>mjwielgo</createdBy>
+<createdTime>2015-09-17 01:25:59 UTC</createdTime>
+<ownerDesignName>mwielgosAssignmentTwo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCF64FB2-A5F6-548C-0A7C-051AE7D50588"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
